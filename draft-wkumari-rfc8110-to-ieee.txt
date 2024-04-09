@@ -4,12 +4,13 @@
 
 Network Working Group                                          W. Kumari
 Internet-Draft                                               Google, LLC
-Updates: RFC8110 (if approved)                              9 April 2024
-Intended status: Informational                                          
-Expires: 11 October 2024
+Updates: RFC8110 (if approved)                                D. Harkins
+Intended status: Informational                Hewlett-Packard Enterprise
+Expires: 11 October 2024                                    9 April 2024
 
 
-       Transferring responsibility for RFC8110 (OWE) to the IEEE
+  Transferring maintenance of Opportunistic Wireless Encryption to the
+                                  IEEE
                   draft-wkumari-rfc8110-to-ieee-latest
 
 Abstract
@@ -72,7 +73,7 @@ Table of Contents
      4.1.  Normative References
      4.2.  Informative References
    Acknowledgments
-   Author's Address
+   Authors' Addresses
 
 1.  Introduction
 
@@ -137,8 +138,13 @@ Acknowledgments
    years ago and we have had many conversations with many people since
    then...
 
-Author's Address
+Authors' Addresses
 
    Warren Kumari
    Google, LLC
    Email: warren@kumari.net
+
+
+   Dan Harkins
+   Hewlett-Packard Enterprise
+   Email: daniel.harkins@hpe.com
