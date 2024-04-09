@@ -19,11 +19,11 @@
 # Change the file extension to match the format (.xml for XML, etc...)
 #
 ###
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
+title: "Transferring responsibility for RFC8110 (OWE) to the IEEE"
+abbrev: "RFC8110-to-IEEE"
 category: info
 
-docname: draft-todo-yourname-protocol-latest
+docname: draft-wkumari-rfc8110-to-ieee-latest
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 number:
 date:
