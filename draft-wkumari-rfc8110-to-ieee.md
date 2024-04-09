@@ -9,12 +9,14 @@ number:
 date:
 consensus: true
 v: 3
+obsoletes: RFC8110
 # area: AREA
 # workgroup: WG Working Group
 keyword:
- - next generation
- - unicorn
- - sparkling distributed ledger
+ - IEEE
+ - OWE
+ - Opportunistic Wireless Encryption
+ - RFC8110
 venue:
 #  group: WG
 #  type: Working Group
@@ -24,36 +26,50 @@ venue:
   latest: "https://wkumari.github.io/draft-wkumari-rfc8110-to-ieee/draft-wkumari-rfc8110-to-ieee.html"
 
 author:
- -
-    fullname: "Warren Kumari"
-    organization: Your Organization Here
+  -
+    name: "Warren Kumari"
+    ins: "W. Kumari"
+    organization: "Google, LLC"
     email: "warren@kumari.net"
 
 normative:
+  RFC8110:
 
 informative:
+  Wi-Fi Enhanced Open:
+    target: https://www.wi-fi.org/beacon/dan-harkins/wi-fi-certified-enhanced-open-transparent-wi-fi-protections-without-complexity
+    title: "Wi-Fi CERTIFIED Enhanced Open™: Transparent Wi-Fi® protections without complexity"
 
 
 --- abstract
 
-TODO Abstract
-
+RFC8110 describes Opportunistic Wireless Encryption (OWE), a mode that allows
+unauthenticated clients to connect to a network using encrypted traffic. This
+document notes that ongoing maintenance and further development of the protocol
+will occur in the IEEE.
 
 --- middle
 
 # Introduction
 
-TODO Introduction
+{{RFC8110}} describes Opportunistic Wireless Encryption (OWE), a mode
+of opportunistic security [RFC7435] for IEEE Std 802.11 that provides
+encryption of the wireless medium without authentication.
 
+Since publication, {{RFC8110}} (also known as "{{Wi-Fi Enhanced Open}}") has
+been widely implemented and deployed.
 
-# Conventions and Definitions
-
-{::boilerplate bcp14-tagged}
+At the request of {{IEEE 802.11}}, in order to allow for ongoing maintenance
+and further development of the  protocol, and to ensure that the protocol
+remains in sync with the IEEE protocols, this document notes that future work
+on the protocol described in RFC8110 will now occur in {{IEEE 802.11}}.
 
 
 # Security Considerations
 
-TODO Security
+This document simply notes that future work on the protocol described in
+RFC8110 will now occur in the IEEE. As such, it does not introduce any new
+security considerations.
 
 
 # IANA Considerations
@@ -66,4 +82,14 @@ This document has no IANA actions.
 # Acknowledgments
 {:numbered="false"}
 
-TODO acknowledge.
+The authors would like to thank the IEEE 802.11 working group for their work,
+and for taking on the responsibility for future work on the protocol
+described in RFC8110.
+
+In addition, we would like to thank Stephen Farrell, who AD sponsored the
+original work, as well as Clemens Schimpe, Dorothy Stanley, Eric Vynke,
+Mike Montemurro, and Peter Yee.
+
+Apologies to anyone we forgot to acknowledge; RFC8110 was written 7+ years ago
+and we have had many conversations with many people since then...
+
