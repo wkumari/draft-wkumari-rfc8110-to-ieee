@@ -1,5 +1,5 @@
 ---
-title: "Transferring responsibility for RFC8110 (OWE) to the IEEE"
+title: "Transferring maintenance of Opportunistic Wireless Encryption to the IEEE"
 abbrev: "RFC8110-to-IEEE"
 category: info
 
@@ -31,6 +31,11 @@ author:
     ins: "W. Kumari"
     organization: "Google, LLC"
     email: "warren@kumari.net"
+  -
+    name: "Dan Harkins"
+    ins: "D. Harkins"
+    organization: "Hewlett-Packard Enterprise"
+    email: daniel.harkins@hpe.com
 
 normative:
   RFC8110:
