@@ -96,7 +96,7 @@ and for taking on the responsibility for future work on the protocol
 described in RFC8110.
 
 In addition, we would like to thank Stephen Farrell, who AD sponsored the
-original work, as well as Clemens Schimpe, Dorothy Stanley, Eric Vynke,
+original work, as well as Clemens Schimpe, Dorothy Stanley, Eric Vyncke,
 Mike Montemurro, and Peter Yee.
 
 Apologies to anyone we forgot to acknowledge; RFC8110 was written 7+ years ago
