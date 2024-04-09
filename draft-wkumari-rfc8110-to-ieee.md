@@ -9,7 +9,7 @@ number:
 date:
 consensus: true
 v: 3
-obsoletes: RFC8110
+updates: RFC8110
 # area: AREA
 # workgroup: WG Working Group
 keyword:
@@ -36,9 +36,13 @@ normative:
   RFC8110:
 
 informative:
-  Wi-Fi Enhanced Open:
-    target: https://www.wi-fi.org/beacon/dan-harkins/wi-fi-certified-enhanced-open-transparent-wi-fi-protections-without-complexity
+  RFC7435:
+  Wi-Fi_Enhanced_Open:
+    target: "https://www.wi-fi.org/beacon/dan-harkins/wi-fi-certified-enhanced-open-transparent-wi-fi-protections-without-complexity"
     title: "Wi-Fi CERTIFIED Enhanced Open™: Transparent Wi-Fi® protections without complexity"
+  IEEE_802.11:
+    target: https://www.ieee802.org/11/
+    title: "IEEE 802.11 Working Group"
 
 
 --- abstract
@@ -53,13 +57,13 @@ will occur in the IEEE.
 # Introduction
 
 {{RFC8110}} describes Opportunistic Wireless Encryption (OWE), a mode
-of opportunistic security [RFC7435] for IEEE Std 802.11 that provides
+of opportunistic security {{RFC7435}} for IEEE Std 802.11 that provides
 encryption of the wireless medium without authentication.
 
 Since publication, {{RFC8110}} (also known as "{{Wi-Fi Enhanced Open}}") has
 been widely implemented and deployed.
 
-At the request of {{IEEE 802.11}}, in order to allow for ongoing maintenance
+At the request of {{IEEE_802.11}}, in order to allow for ongoing maintenance
 and further development of the  protocol, and to ensure that the protocol
 remains in sync with the IEEE protocols, this document notes that future work
 on the protocol described in RFC8110 will now occur in {{IEEE 802.11}}.
