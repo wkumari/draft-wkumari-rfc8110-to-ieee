@@ -132,7 +132,7 @@ Acknowledgments
 
    In addition, we would like to thank Stephen Farrell, who AD sponsored
    the original work, as well as Clemens Schimpe, Dorothy Stanley, Eric
-   Vynke, Mike Montemurro, and Peter Yee.
+   Vyncke, Mike Montemurro, and Peter Yee.
 
    Apologies to anyone we forgot to acknowledge; RFC8110 was written 7+
    years ago and we have had many conversations with many people since
