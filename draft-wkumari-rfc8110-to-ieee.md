@@ -65,14 +65,29 @@ will occur in the IEEE.
 of opportunistic security {{RFC7435}} for IEEE Std 802.11 that provides
 encryption of the wireless medium without authentication.
 
-Since publication, {{RFC8110}} (also known as "{{Wi-Fi Enhanced Open}}") has
-been widely implemented and deployed.
+At the time of development, IEEE had an "all or nothing" view of
+authentication in key exchange protocols to secure {{IEEE_802.11}}.
+Since OWE fell in between those extremes, IEEE declined to pursue it
+and IETF published {{RFC8110}} as a result.
+
+Since publication, RFC8110 (certified in the Wi-Fi Alliance as
+"{{Wi-Fi_Enhanced_Open}}") has been widely implemented and deployed.
+
+As a result of this deployment and acceptance in the market place, IEEE
+has changed its view and has opened up to the definition of unauthenticated
+encryption protocols in {{IEEE_802.11}}.
+
+# Transfer of Maintenance
 
 At the request of {{IEEE_802.11}}, in order to allow for ongoing maintenance
 and further development of the  protocol, and to ensure that the protocol
-remains in sync with the IEEE protocols, this document notes that future work
-on the protocol described in RFC8110 will now occur in {{IEEE 802.11}}.
+remains in sync with the IEEE protocols, this document specifies that future
+work on the protocol described in RFC8110 will now occur in {{IEEE_802.11}}.
 
+The protocol defined in RFC8110 will be duplicated in {{IEEE_802.11}}
+such that that document alone will be enough to implement it and any
+further maintenance or modification of the protocol will be performed
+in IEEE under its policies and procedures.
 
 # Security Considerations
 
