@@ -1,5 +1,5 @@
 ---
-title: "Transferring maintenance of Opportunistic Wireless Encryption to the IEEE"
+title: "Transferring Opportunistic Wireless Encryption to the IEEE 802.11 Working Group"
 abbrev: "RFC8110-to-IEEE"
 category: info
 
@@ -54,28 +54,24 @@ informative:
 
 RFC8110 describes Opportunistic Wireless Encryption (OWE), a mode that allows
 unauthenticated clients to connect to a network using encrypted traffic. This
-document notes that ongoing maintenance and further development of the protocol
-will occur in the IEEE.
+document transfers the ongoing maintenance and further development of the protocol to the IEEE 802.11 Working Group.
+
+This documents updates RFC8110 by noting that future work on the protocol described in RFC8110 will occur in the IEEE 802.11 Working Group.
 
 --- middle
 
 # Introduction
 
-{{RFC8110}} describes Opportunistic Wireless Encryption (OWE), a mode
-of opportunistic security {{RFC7435}} for IEEE Std 802.11 that provides
-encryption of the wireless medium without authentication.
+{{RFC8110}} describes Opportunistic Wireless Encryption (OWE), a mode of
+opportunistic security {{RFC7435}} for IEEE Std 802.11 that provides encryption
+of the wireless medium without authentication.
 
-At the time of development, IEEE had an "all or nothing" view of
-authentication in key exchange protocols to secure {{IEEE_802.11}}.
-Since OWE fell in between those extremes, IEEE declined to pursue it
-and IETF published {{RFC8110}} as a result.
+Since publication, {{RFC8110}} (also known as "{{Wi-Fi Enhanced Open}}") has been widely implemented and deployed.
 
-Since publication, RFC8110 (certified in the Wi-Fi Alliance as
-"{{Wi-Fi_Enhanced_Open}}") has been widely implemented and deployed.
-
-As a result of this deployment and acceptance in the market place, IEEE
-has changed its view and has opened up to the definition of unauthenticated
-encryption protocols in {{IEEE_802.11}}.
+At the request of {{IEEE_802.11}}, in order to allow for ongoing maintenance
+and further development of the protocol, and to ensure that the protocol
+remains in sync with the IEEE protocols, this document notes that future work
+on the protocol described in RFC8110 will now occur in {{IEEE 802.11}}.
 
 # Transfer of Maintenance
 
