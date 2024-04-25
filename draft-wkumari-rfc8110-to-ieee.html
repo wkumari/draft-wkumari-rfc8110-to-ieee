@@ -4,24 +4,24 @@
 <meta charset="utf-8">
 <meta content="Common,Latin" name="scripts">
 <meta content="initial-scale=1.0" name="viewport">
-<title>Transferring maintenance of Opportunistic Wireless Encryption to the IEEE</title>
+<title>Transferring Opportunistic Wireless Encryption to the IEEE 802.11 Working Group</title>
 <meta content="Warren Kumari" name="author">
 <meta content="Dan Harkins" name="author">
 <meta content="
        RFC8110 describes Opportunistic Wireless Encryption (OWE), a mode that allows
 unauthenticated clients to connect to a network using encrypted traffic. This
-document notes that ongoing maintenance and further development of the protocol
-will occur in the IEEE. 
+document transfers the ongoing maintenance and further development of the protocol to the IEEE 802.11 Working Group. 
+       This documents updates RFC8110 by noting that future work on the protocol described in RFC8110 will occur in the IEEE 802.11 Working Group. 
     " name="description">
-<meta content="xml2rfc 3.20.1" name="generator">
+<meta content="xml2rfc 3.21.0" name="generator">
 <meta content="IEEE" name="keyword">
 <meta content="OWE" name="keyword">
 <meta content="Opportunistic Wireless Encryption" name="keyword">
 <meta content="RFC8110" name="keyword">
 <meta content="draft-wkumari-rfc8110-to-ieee-latest" name="ietf.draft">
 <!-- Generator version information:
-  xml2rfc 3.20.1
-    Python 3.11.8
+  xml2rfc 3.21.0
+    Python 3.11.9
     ConfigArgParse 1.7
     google-i18n-address 3.1.0
     intervaltree 3.1.0
@@ -1036,7 +1036,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 </tr></thead>
 <tfoot><tr>
 <td class="left">Kumari &amp; Harkins</td>
-<td class="center">Expires 13 October 2024</td>
+<td class="center">Expires 27 October 2024</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1052,12 +1052,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <a href="https://www.rfc-editor.org/rfc/rfcRFC8110" class="eref">RFC8110</a> (if approved)</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2024-04-11" class="published">11 April 2024</time>
+<time datetime="2024-04-25" class="published">25 April 2024</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2024-10-13">13 October 2024</time></dd>
+<dd class="expires"><time datetime="2024-10-27">27 October 2024</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1071,13 +1071,13 @@ svg :is([fill="white"], [fill^="#fff"]) {
 </dd>
 </dl>
 </div>
-<h1 id="title">Transferring maintenance of Opportunistic Wireless Encryption to the IEEE</h1>
+<h1 id="title">Transferring Opportunistic Wireless Encryption to the IEEE 802.11 Working Group</h1>
 <section id="section-abstract">
       <h2 id="abstract"><a href="#abstract" class="selfRef">Abstract</a></h2>
 <p id="section-abstract-1">RFC8110 describes Opportunistic Wireless Encryption (OWE), a mode that allows
 unauthenticated clients to connect to a network using encrypted traffic. This
-document notes that ongoing maintenance and further development of the protocol
-will occur in the IEEE.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
+document transfers the ongoing maintenance and further development of the protocol to the IEEE 802.11 Working Group.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
+<p id="section-abstract-2">This documents updates RFC8110 by noting that future work on the protocol described in RFC8110 will occur in the IEEE 802.11 Working Group.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
 </section>
 <section class="note rfcEditorRemove" id="section-note.1">
       <h2 id="name-about-this-document">
@@ -1109,7 +1109,7 @@ will occur in the IEEE.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 13 October 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 27 October 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1176,18 +1176,14 @@ will occur in the IEEE.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
       <h2 id="name-introduction">
 <a href="#section-1" class="section-number selfRef">1. </a><a href="#name-introduction" class="section-name selfRef">Introduction</a>
       </h2>
-<p id="section-1-1"><span>[<a href="#RFC8110" class="cite xref">RFC8110</a>]</span> describes Opportunistic Wireless Encryption (OWE), a mode
-of opportunistic security <span>[<a href="#RFC7435" class="cite xref">RFC7435</a>]</span> for IEEE Std 802.11 that provides
-encryption of the wireless medium without authentication.<a href="#section-1-1" class="pilcrow">¶</a></p>
-<p id="section-1-2">At the time of development, IEEE had an "all or nothing" view of
-authentication in key exchange protocols to secure <span>[<a href="#IEEE_802.11" class="cite xref">IEEE_802.11</a>]</span>.
-Since OWE fell in between those extremes, IEEE declined to pursue it
-and IETF published <span>[<a href="#RFC8110" class="cite xref">RFC8110</a>]</span> as a result.<a href="#section-1-2" class="pilcrow">¶</a></p>
-<p id="section-1-3">Since publication, RFC8110 (certified in the Wi-Fi Alliance as
-"<span>[<a href="#Wi-Fi_Enhanced_Open" class="cite xref">Wi-Fi_Enhanced_Open</a>]</span>") has been widely implemented and deployed.<a href="#section-1-3" class="pilcrow">¶</a></p>
-<p id="section-1-4">As a result of this deployment and acceptance in the market place, IEEE
-has changed its view and has opened up to the definition of unauthenticated
-encryption protocols in <span>[<a href="#IEEE_802.11" class="cite xref">IEEE_802.11</a>]</span>.<a href="#section-1-4" class="pilcrow">¶</a></p>
+<p id="section-1-1"><span>[<a href="#RFC8110" class="cite xref">RFC8110</a>]</span> describes Opportunistic Wireless Encryption (OWE), a mode of
+opportunistic security <span>[<a href="#RFC7435" class="cite xref">RFC7435</a>]</span> for IEEE Std 802.11 that provides encryption
+of the wireless medium without authentication.<a href="#section-1-1" class="pilcrow">¶</a></p>
+<p id="section-1-2">Since publication, <span>[<a href="#RFC8110" class="cite xref">RFC8110</a>]</span> (also known as "<span>[<a href="#Wi-Fi_Enhanced_Open" class="cite xref">Wi-Fi_Enhanced_Open</a>]</span>") has been widely implemented and deployed.<a href="#section-1-2" class="pilcrow">¶</a></p>
+<p id="section-1-3">At the request of <span>[<a href="#IEEE_802.11" class="cite xref">IEEE_802.11</a>]</span>, in order to allow for ongoing maintenance
+and further development of the protocol, and to ensure that the protocol
+remains in sync with the IEEE protocols, this document notes that future work
+on the protocol described in RFC8110 will now occur in <span>[<a href="#IEEE_802.11" class="cite xref">IEEE_802.11</a>]</span>.<a href="#section-1-3" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="transfer-of-maintenance">
