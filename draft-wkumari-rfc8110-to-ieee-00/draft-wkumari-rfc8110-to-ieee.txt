@@ -1,0 +1,169 @@
+
+
+
+
+Network Working Group                                          W. Kumari
+Internet-Draft                                               Google, LLC
+Updates: RFC8110 (if approved)                                D. Harkins
+Intended status: Informational                Hewlett-Packard Enterprise
+Expires: 29 October 2024                                   27 April 2024
+
+
+   Transferring Opportunistic Wireless Encryption to the IEEE 802.11
+                             Working Group
+                  draft-wkumari-rfc8110-to-ieee-latest
+
+Abstract
+
+   RFC8110 describes Opportunistic Wireless Encryption (OWE), a mode
+   that allows unauthenticated clients to connect to a network using
+   encrypted traffic.  This document transfers the ongoing maintenance
+   and further development of the protocol to the IEEE 802.11 Working
+   Group.
+
+   This documents updates RFC8110 by noting that future work on the
+   protocol described in RFC8110 will occur in the IEEE 802.11 Working
+   Group.
+
+About This Document
+
+   This note is to be removed before publishing as an RFC.
+
+   The latest revision of this draft can be found at
+   https://wkumari.github.io/draft-wkumari-rfc8110-to-ieee/draft-
+   wkumari-rfc8110-to-ieee.html.  Status information for this document
+   may be found at https://datatracker.ietf.org/doc/draft-wkumari-
+   rfc8110-to-ieee/.
+
+   Source for this draft and an issue tracker can be found at
+   https://github.com/wkumari/draft-wkumari-rfc8110-to-ieee.
+
+Status of This Memo
+
+   This Internet-Draft is submitted in full conformance with the
+   provisions of BCP 78 and BCP 79.
+
+   Internet-Drafts are working documents of the Internet Engineering
+   Task Force (IETF).  Note that other groups may also distribute
+   working documents as Internet-Drafts.  The list of current Internet-
+   Drafts is at https://datatracker.ietf.org/drafts/current/.
+
+   Internet-Drafts are draft documents valid for a maximum of six months
+   and may be updated, replaced, or obsoleted by other documents at any
+   time.  It is inappropriate to use Internet-Drafts as reference
+   material or to cite them other than as "work in progress."
+
+   This Internet-Draft will expire on 29 October 2024.
+
+Copyright Notice
+
+   Copyright (c) 2024 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
+
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents (https://trustee.ietf.org/
+   license-info) in effect on the date of publication of this document.
+   Please review these documents carefully, as they describe your rights
+   and restrictions with respect to this document.  Code Components
+   extracted from this document must include Revised BSD License text as
+   described in Section 4.e of the Trust Legal Provisions and are
+   provided without warranty as described in the Revised BSD License.
+
+Table of Contents
+
+   1.  Introduction
+   2.  Transfer of Maintenance
+   3.  Security Considerations
+   4.  IANA Considerations
+   5.  References
+     5.1.  Normative References
+     5.2.  Informative References
+   Acknowledgments
+   Authors' Addresses
+
+1.  Introduction
+
+   [RFC8110] describes Opportunistic Wireless Encryption (OWE), a mode
+   of opportunistic security [RFC7435] for IEEE Std 802.11 that provides
+   encryption of the wireless medium without authentication.
+
+   Since publication, [RFC8110] (also known as "[Wi-Fi_Enhanced_Open]")
+   has been widely implemented and deployed.
+
+   At the request of [IEEE_802.11], in order to allow for ongoing
+   maintenance and further development of the protocol, and to ensure
+   that the protocol remains in sync with the IEEE protocols, this
+   document notes that future work on the protocol described in RFC8110
+   will now occur in [IEEE_802.11].
+
+2.  Transfer of Maintenance
+
+   At the request of [IEEE_802.11], in order to allow for ongoing
+   maintenance and further development of the protocol, and to ensure
+   that the protocol remains in sync with the IEEE protocols, this
+   document specifies that future work on the protocol described in
+   RFC8110 will now occur in [IEEE_802.11].
+
+   The protocol defined in RFC8110 will be duplicated in [IEEE_802.11]
+   such that that document alone will be enough to implement it and any
+   further maintenance or modification of the protocol will be performed
+   in IEEE under its policies and procedures.
+
+3.  Security Considerations
+
+   This document simply notes that future work on the protocol described
+   in RFC8110 will now occur in the IEEE.  As such, it does not
+   introduce any new security considerations.
+
+4.  IANA Considerations
+
+   This document has no IANA actions.
+
+5.  References
+
+5.1.  Normative References
+
+   [RFC8110]  Harkins, D., Ed. and W. Kumari, Ed., "Opportunistic
+              Wireless Encryption", RFC 8110, DOI 10.17487/RFC8110,
+              March 2017, <https://www.rfc-editor.org/rfc/rfc8110>.
+
+5.2.  Informative References
+
+   [IEEE_802.11]
+              "IEEE 802.11 Working Group", n.d.,
+              <https://www.ieee802.org/11/>.
+
+   [RFC7435]  Dukhovni, V., "Opportunistic Security: Some Protection
+              Most of the Time", RFC 7435, DOI 10.17487/RFC7435,
+              December 2014, <https://www.rfc-editor.org/rfc/rfc7435>.
+
+   [Wi-Fi_Enhanced_Open]
+              "Wi-Fi CERTIFIED Enhanced Open™: Transparent Wi-Fi®
+              protections without complexity", n.d., <https://www.wi-
+              fi.org/beacon/dan-harkins/wi-fi-certified-enhanced-open-
+              transparent-wi-fi-protections-without-complexity>.
+
+Acknowledgments
+
+   The authors would like to thank the IEEE 802.11 working group for
+   their work, and for taking on the responsibility for future work on
+   the protocol described in RFC8110.
+
+   In addition, we would like to thank Stephen Farrell, who AD sponsored
+   the original work, as well as Clemens Schimpe, Dorothy Stanley, Eric
+   Vyncke, Mike Montemurro, and Peter Yee.
+
+   Apologies to anyone we forgot to acknowledge; RFC8110 was written 7+
+   years ago and we have had many conversations with many people since
+   then...
+
+Authors' Addresses
+
+   Warren Kumari
+   Google, LLC
+   Email: warren@kumari.net
+
+
+   Dan Harkins
+   Hewlett-Packard Enterprise
+   Email: daniel.harkins@hpe.com
