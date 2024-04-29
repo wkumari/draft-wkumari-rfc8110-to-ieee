@@ -6,7 +6,7 @@ Network Working Group                                          W. Kumari
 Internet-Draft                                               Google, LLC
 Updates: RFC8110 (if approved)                                D. Harkins
 Intended status: Informational                Hewlett-Packard Enterprise
-Expires: 27 October 2024                                   25 April 2024
+Expires: 31 October 2024                                   29 April 2024
 
 
    Transferring Opportunistic Wireless Encryption to the IEEE 802.11
@@ -21,7 +21,7 @@ Abstract
    and further development of the protocol to the IEEE 802.11 Working
    Group.
 
-   This documents updates RFC8110 by noting that future work on the
+   This document updates RFC8110 by noting that future work on the
    protocol described in RFC8110 will occur in the IEEE 802.11 Working
    Group.
 
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 27 October 2024.
+   This Internet-Draft will expire on 31 October 2024.
 
 Copyright Notice
 
@@ -79,6 +79,7 @@ Table of Contents
      5.1.  Normative References
      5.2.  Informative References
    Acknowledgments
+   Change Log
    Authors' Addresses
 
 1.  Introduction
@@ -150,12 +151,19 @@ Acknowledgments
    the protocol described in RFC8110.
 
    In addition, we would like to thank Stephen Farrell, who AD sponsored
-   the original work, as well as Clemens Schimpe, Dorothy Stanley, Eric
-   Vyncke, Mike Montemurro, and Peter Yee.
+   the original work, as well as Clemens Schimpe, Dorothy Stanley, Paul
+   Wouters, Eric Vyncke, Mike Montemurro, and Peter Yee.
 
    Apologies to anyone we forgot to acknowledge; RFC8110 was written 7+
    years ago and we have had many conversations with many people since
    then...
+
+Change Log
+
+   *  From -00 to -01:
+
+      -  Fixed a nit ("This documents updates" -> "This document
+         updates")
 
 Authors' Addresses
 
