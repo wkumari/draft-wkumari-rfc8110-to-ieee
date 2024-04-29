@@ -56,7 +56,7 @@ RFC8110 describes Opportunistic Wireless Encryption (OWE), a mode that allows
 unauthenticated clients to connect to a network using encrypted traffic. This
 document transfers the ongoing maintenance and further development of the protocol to the IEEE 802.11 Working Group.
 
-This documents updates RFC8110 by noting that future work on the protocol described in RFC8110 will occur in the IEEE 802.11 Working Group.
+This document updates RFC8110 by noting that future work on the protocol described in RFC8110 will occur in the IEEE 802.11 Working Group.
 
 --- middle
 
@@ -107,9 +107,14 @@ and for taking on the responsibility for future work on the protocol
 described in RFC8110.
 
 In addition, we would like to thank Stephen Farrell, who AD sponsored the
-original work, as well as Clemens Schimpe, Dorothy Stanley, Eric Vyncke,
+original work, as well as Clemens Schimpe, Dorothy Stanley, Paul Wouters, Eric Vyncke,
 Mike Montemurro, and Peter Yee.
 
 Apologies to anyone we forgot to acknowledge; RFC8110 was written 7+ years ago
 and we have had many conversations with many people since then...
 
+# Change Log
+{:numbered="false"}
+
+* From -00 to -01:
+  * Fixed a nit ("This documents updates" -> "This document updates")
