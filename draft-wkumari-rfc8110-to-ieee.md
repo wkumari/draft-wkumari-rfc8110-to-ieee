@@ -48,6 +48,9 @@ informative:
   IEEE_802.11:
     target: https://www.ieee802.org/11/
     title: "IEEE 802.11 Working Group"
+  IEEE_LS:
+    target: https://datatracker.ietf.org/liaison/1929/
+    title: "Liaison Statement from IEEE 802.11 to the IETF - OWE (RFC8110) now in 802.11"
 
 
 --- abstract
@@ -68,10 +71,8 @@ of the wireless medium without authentication.
 
 Since publication, {{RFC8110}} (also known as "{{Wi-Fi Enhanced Open}}") has been widely implemented and deployed.
 
-At the request of {{IEEE_802.11}}, in order to allow for ongoing maintenance
-and further development of the protocol, and to ensure that the protocol
-remains in sync with the IEEE protocols, this document notes that future work
-on the protocol described in RFC8110 will now occur in {{IEEE 802.11}}.
+
+{{IEEE_802.11}} has requested {{IEEE_LS}} that in order to allow for ongoing maintenance and further development of the protocol, and to ensure that the protocol remains in sync with the IEEE protocols, future work on the protocol described in RFC8110 will now occur in {{IEEE_802.11}}. This document is a concurrence.
 
 # Transfer of Maintenance
 
@@ -118,4 +119,6 @@ and we have had many conversations with many people since then...
 
 * From -00 to -01:
   * Fixed a nit ("This documents updates" -> "This document updates")
-
+* From -01 to -02:
+  * We have the liaison from the IEEE 802.11 WG; update to point at the liaison
+    statement.
