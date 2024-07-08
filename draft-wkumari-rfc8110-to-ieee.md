@@ -119,6 +119,7 @@ and we have had many conversations with many people since then...
 
 * From -00 to -01:
   * Fixed a nit ("This documents updates" -> "This document updates")
-* From -01 to -02:
   * We have the liaison from the IEEE 802.11 WG; update to point at the liaison
     statement.
+  * For some reason, pushing the -01 version to GitHub didn't trigger the
+    build. Trying to post manually.
