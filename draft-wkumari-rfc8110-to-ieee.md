@@ -9,7 +9,7 @@ number:
 date:
 consensus: true
 v: 3
-updates: RFC8110
+updates: 8110
 # area: AREA
 # workgroup: WG Working Group
 keyword:
