@@ -108,14 +108,16 @@ and for taking on the responsibility for future work on the protocol
 described in RFC8110.
 
 In addition, we would like to thank Stephen Farrell, who AD sponsored the
-original work, as well as Clemens Schimpe, Dorothy Stanley, Paul Wouters, Eric Vyncke,
-Mike Montemurro, and Peter Yee.
+original work, as well as Clemens Schimpe, Dorothy Stanley, Paul Wouters, Eric Vyncke, Mike Montemurro, and Peter Yee.
 
 Apologies to anyone we forgot to acknowledge; RFC8110 was written 7+ years ago
 and we have had many conversations with many people since then...
 
 # Change Log
 {:numbered="false"}
+
+* From -01 to -02:
+  * The Updates header contained 'RFC', removed it to make idnits happy.
 
 * From -00 to -01:
   * Fixed a nit ("This documents updates" -> "This document updates")
