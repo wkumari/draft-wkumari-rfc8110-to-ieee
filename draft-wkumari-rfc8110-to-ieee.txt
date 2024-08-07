@@ -164,6 +164,11 @@ Acknowledgments
 
 Change Log
 
+   *  From -01 to -02:
+
+      -  The Updates header contained 'RFC', removed it to make idnits
+         happy.
+
    *  From -00 to -01:
 
       -  Fixed a nit ("This documents updates" -> "This document
