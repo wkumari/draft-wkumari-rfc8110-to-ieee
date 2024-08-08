@@ -6,7 +6,7 @@ Network Working Group                                          W. Kumari
 Internet-Draft                                               Google, LLC
 Updates: 8110 (if approved)                                   D. Harkins
 Intended status: Informational                Hewlett-Packard Enterprise
-Expires: 8 February 2025                                   7 August 2024
+Expires: 9 February 2025                                   8 August 2024
 
 
    Transferring Opportunistic Wireless Encryption to the IEEE 802.11
@@ -15,14 +15,14 @@ Expires: 8 February 2025                                   7 August 2024
 
 Abstract
 
-   RFC8110 describes Opportunistic Wireless Encryption (OWE), a mode
+   RFC 8110 describes Opportunistic Wireless Encryption (OWE), a mode
    that allows unauthenticated clients to connect to a network using
    encrypted traffic.  This document transfers the ongoing maintenance
    and further development of the protocol to the IEEE 802.11 Working
    Group.
 
-   This document updates RFC8110 by noting that future work on the
-   protocol described in RFC8110 will occur in the IEEE 802.11 Working
+   This document updates RFC 8110 by noting that future work on the
+   protocol described in RFC 8110 will occur in the IEEE 802.11 Working
    Group.
 
 About This Document
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 8 February 2025.
+   This Internet-Draft will expire on 9 February 2025.
 
 Copyright Notice
 
@@ -93,19 +93,19 @@ Table of Contents
 
    [IEEE_802.11] has requested [IEEE_LS] that in order to allow for
    ongoing maintenance and further development of the protocol, and to
-   ensure that the protocol remains in sync with the IEEE protocols,
-   future work on the protocol described in RFC8110 will now occur in
+   ensure that the protocol remains in sync with IEEE 802.11 protocols,
+   future work on the protocol described in [RFC8110] will now occur in
    [IEEE_802.11].  This document is a concurrence.
 
 2.  Transfer of Maintenance
 
    At the request of [IEEE_802.11], in order to allow for ongoing
    maintenance and further development of the protocol, and to ensure
-   that the protocol remains in sync with the IEEE protocols, this
+   that the protocol remains in sync with IEEE 802.11 protocols, this
    document specifies that future work on the protocol described in
    RFC8110 will now occur in [IEEE_802.11].
 
-   The protocol defined in RFC8110 will be duplicated in [IEEE_802.11]
+   The protocol defined in [RFC8110] will be duplicated in [IEEE_802.11]
    such that that document alone will be enough to implement it and any
    further maintenance or modification of the protocol will be performed
    in IEEE under its policies and procedures.
@@ -113,7 +113,7 @@ Table of Contents
 3.  Security Considerations
 
    This document simply notes that future work on the protocol described
-   in RFC8110 will now occur in the IEEE.  As such, it does not
+   in [RFC8110] will now occur in the IEEE.  As such, it does not
    introduce any new security considerations.
 
 4.  IANA Considerations
@@ -152,17 +152,29 @@ Acknowledgments
 
    The authors would like to thank the IEEE 802.11 working group for
    their work, and for taking on the responsibility for future work on
-   the protocol described in RFC8110.
+   the protocol described in [RFC8110].
 
    In addition, we would like to thank Stephen Farrell, who AD sponsored
    the original work, as well as Clemens Schimpe, Dorothy Stanley, Paul
-   Wouters, Eric Vyncke, Mike Montemurro, and Peter Yee.
+   Wouters, Éric Vyncke, Mike Montemurro, and Peter Yee.
 
-   Apologies to anyone we forgot to acknowledge; RFC8110 was written 7+
-   years ago and we have had many conversations with many people since
-   then...
+   Apologies to anyone we forgot to acknowledge; [RFC8110] was written
+   7+ years ago and we have had many conversations with many people
+   since then...
 
 Change Log
+
+   *  From -02 to -03:
+
+      -  Updated "the IEEE protocols" to Peter Yee's "IEEE 802.11
+         protocols".
+
+      -  Somehow many of the references to RFC8110 were not entered as
+         references.
+
+      -  Fixed "RFC8110" -> "RFC 8110" in the abstract.
+
+      -  Fixed Éric Vyncke's name.
 
    *  From -01 to -02:
 
