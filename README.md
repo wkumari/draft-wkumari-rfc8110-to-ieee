@@ -1,3 +1,9 @@
+# [RFC9672 - "Transferring Opportunistic Wireless Encryption to the IEEE 802.11 Working Group"](https://datatracker.ietf.org/doc/rfc9672/)
+
+This document was published as [RFC9672 - "Transferring Opportunistic Wireless Encryption to the IEEE 802.11 Working Group"](https://datatracker.ietf.org/doc/rfc9672/) , and so I am archiving this repository.
+
+
+
 # Transferring responsibility for RFC8110 (OWE) to the IEEE
 
 This is the working area for the individual Internet-Draft, "Transferring responsibility for RFC8110 (OWE) to the IEEE".
